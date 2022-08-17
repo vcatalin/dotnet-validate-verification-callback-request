@@ -28,7 +28,7 @@ app.UseRouting();
 string applicationKey = "<REPLACE_WITH_APP_KEY>";
 
 /*
-    The secret from the Verification App that uses the key above, found here https://dashboard.sinch.com/voice/apps
+    The secret from the Verification App that uses the key above, found here https://dashboard.sinch.com/verification/apps
 */
 string applicationSecret = "<REPLACE_WITH_APP_SECRET>";
 
