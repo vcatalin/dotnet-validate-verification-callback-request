@@ -18,3 +18,4 @@ This project validates a Verification Event callback received from the Sinch pla
 - test using the SMS PIN Verification script found in the project
   - replace the required values in the `./SMSVerificationTestScript/Program.cs` file
   - `dotnet run --project SMSVerificationTestScript`
+  - by default, the request authenticates by application signing the HTTP request. To switch to basic authentication, comment `line 34` and uncomment `line 40`.

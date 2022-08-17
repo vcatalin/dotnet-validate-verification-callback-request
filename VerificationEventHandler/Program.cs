@@ -23,11 +23,12 @@ if (app.Environment.IsDevelopment())
 app.UseRouting();
 
 /*
-    The key from one of your Voice Apps, found here https://dashboard.sinch.com/verification/apps
+    The key from one of your Verification Apps, found here https://dashboard.sinch.com/verification/apps
 */
 string applicationKey = "<REPLACE_WITH_APP_KEY>";
+
 /*
-    The secret from the Voice App that uses the key above, found here https://dashboard.sinch.com/voice/apps
+    The secret from the Verification App that uses the key above, found here https://dashboard.sinch.com/voice/apps
 */
 string applicationSecret = "<REPLACE_WITH_APP_SECRET>";
 
